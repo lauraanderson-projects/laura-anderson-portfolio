@@ -6,6 +6,9 @@
 
 body {
   margin-top: 100px;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  color: #2a2f36;
 }
 
 h1,
@@ -34,6 +37,58 @@ p {
 
 img {
   width: 100%;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2a2f36;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+ul.navbar-nav a:hover {
+  color: #3498db !important;
+}
+
+.main-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.main-center-opening {
+  background: linear-gradient(279deg, rgb(0, 0, 0) 0%, rgb(65, 70, 63) 100%);
+}
+
+.main-overlay {
+  background-image: url(/images/Spring_Boot_Docker_converted\ copy.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin-top: 25px;
+  padding: 120px 0 350px;
+  background-color: #3f453c;
+}
+
+.wrap {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  color: white;
 }
 
 .navigation-links {
