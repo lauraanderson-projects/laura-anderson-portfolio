@@ -39,6 +39,17 @@ img {
   width: 100%;
 }
 
+.opening-header {
+  font-size: 55px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
+}
+.opening-header-tagline {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2;
+}
+
 .header {
   padding-top: 20px;
 }
@@ -53,29 +64,12 @@ img {
   font-size: 18px;
 }
 
-ul.navbar-nav a:hover {
-  color: #3498db !important;
-}
-
-.main-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: fit-content;
-  max-height: fit-content;
-}
-
 .main-center-opening {
   background: linear-gradient(279deg, rgb(0, 0, 0) 0%, rgb(65, 70, 63) 100%);
 }
 
 .main-overlay {
   background-image: url(/images/womencoding.png);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -87,7 +81,7 @@ ul.navbar-nav a:hover {
 .wrap {
   position: relative;
   margin: 0 auto;
-  padding: 0;
+  padding: 30px 0px 0px 100px;
   color: white;
 }
 
