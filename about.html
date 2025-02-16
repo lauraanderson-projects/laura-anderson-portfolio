@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laura Anderson: About Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -26,66 +27,111 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
-    <title>About Laura Anderson</title>
+    <title>Laura Anderson: Portfolio - About Me</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Laura Anderson</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About&nbsp;me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact&nbsp;me</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container py-3">
+          <a
+            href="/"
+            class="navbar-brand"
+            title="Laura Anderson Portfolio Website"
+            >Laura Anderson</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  title="Home Page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" title="About me"
+                  >About&nbsp;me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html#contact" title="Contact me"
+                  >Contact&nbsp;me</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <h1 class="text-center">About&nbsp;me</h1>
-    <h3 class="text-center">Front-end developer from Seattle, United States</h3>
-    <div class="about-paragraphs">
-      <p class="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
+    <h3 class="text-center">Utilizing software to build solutions.</h3>
+
     <div class="container">
+      <div class="about-paragraphs">
+        <p class="text-center">
+          Seattle - Washington, Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Numquam aperiam provident tempora? Cumque adipisci,
+          non dolorem quia, odit qui alias veniam excepturi rem dolor fugit
+          dignissimos, sed voluptatum blanditiis harum.
+        </p>
+      </div>
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/weather.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="portfolio - weather app image"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/yoga.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="portfolio - yoga app image"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="portfolio - yogurt app image"
+          />
         </div>
       </div>
     </div>
     <div id="contact">
       <h2 class="text-center pt-5">Contact me</h2>
       <a href="mailto:xxxx@gmail.com" class="email-link pb-2">xxx@gmail.com</a>
+      <div class="social-media text-center pt-1 pb-3">
+        <a
+          href="https://github.com/orgs/lauraanderson-projects/repositories"
+          title="Github Respository"
+          target="_blank"
+          ><img
+            src="/images/github-square.svg"
+            alt="github"
+            class="social-button"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/laura-anderson-067953/"
+          title="LinkedIn Profile"
+          target="_blank"
+          ><img src="/images/linkedin.svg" alt="github" class="social-button"
+        /></a>
+      </div>
     </div>
   </body>
 </html>

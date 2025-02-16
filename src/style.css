@@ -47,7 +47,7 @@ img {
 .opening-header-tagline {
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .header {
@@ -69,6 +69,7 @@ img {
 }
 
 .main-overlay {
+  max-height: 550px;
   background-image: url(/images/womencoding.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,4 +140,12 @@ img {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.social-media {
+  padding-top: 20px;
+}
+.social-button {
+  width: 50px;
+  padding-right: 5px;
 }
