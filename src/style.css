@@ -23,6 +23,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  font-weight: 700;
 }
 
 h3 {
@@ -68,7 +69,7 @@ img {
   padding-top: 5px;
 }
 
-.main-center-opening {
+.hero {
   background: linear-gradient(279deg, rgb(0, 0, 0) 0%, rgb(65, 70, 63) 100%);
 }
 
@@ -86,7 +87,6 @@ img {
 .wrap {
   position: relative;
   margin: 0 auto;
-
   color: white;
 }
 
@@ -154,7 +154,7 @@ img {
   padding-right: 5px;
 }
 
-@media (max-width: 976px) {
+@media (max-width: 960px) {
   .main-overlay {
     max-height: 500px;
     background-image: url(/images/womencoding-2.png);
