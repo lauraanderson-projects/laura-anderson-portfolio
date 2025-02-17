@@ -86,7 +86,7 @@ img {
 .wrap {
   position: relative;
   margin: 0 auto;
-  padding: 0px 0px 0px 100px;
+
   color: white;
 }
 
@@ -169,9 +169,6 @@ img {
     font-size: 25px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.2;
-  }
-  .wrap {
-    padding: 0px 0px 0px 15px;
   }
   .opening-header-tagline {
     font-size: 15px;
