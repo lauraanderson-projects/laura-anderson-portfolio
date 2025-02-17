@@ -6,7 +6,7 @@
 
 body {
   margin-top: 100px;
-  font-family: Muli, sans-serif;
+  font-family: "Muli", sans-serif;
   font-style: normal;
   color: #2a2f36;
 }
@@ -62,6 +62,7 @@ img {
 
 .nav-item {
   font-size: 18px;
+  padding-top: 5px;
 }
 
 .main-center-opening {
