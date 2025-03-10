@@ -58,6 +58,9 @@ footer {
   font-weight: 400;
   margin-top: 15px;
 }
+.hero-padding-wrap {
+  padding-left: 20px;
+}
 
 .header {
   padding-top: 20px;
@@ -206,6 +209,9 @@ footer {
     margin-top: 25px;
     padding: 100px 0px 100px 0px;
     background-color: #3f453c;
+  }
+  .hero-padding-wrap {
+    padding-left: 0px;
   }
   .opening-header {
     font-size: 25px;
