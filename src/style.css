@@ -19,6 +19,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -56,6 +57,9 @@ footer {
   line-height: 35px;
   font-weight: 400;
   margin-top: 15px;
+}
+.hero-padding-wrap {
+  padding-left: 20px;
 }
 
 .header {
@@ -205,6 +209,9 @@ footer {
     margin-top: 25px;
     padding: 100px 0px 100px 0px;
     background-color: #3f453c;
+  }
+  .hero-padding-wrap {
+    padding-left: 0px;
   }
   .opening-header {
     font-size: 25px;
