@@ -1,24 +1,35 @@
 {
-  "name": "advanced-bootstrap-homework-challenge",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "name": "simplefolio",
+  "version": "1.0.1",
+  "private": "true",
+  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "source": "src/index.html",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "start": "parcel",
+    "build": "parcel build",
+    "gh-pages-build": "parcel build --public-url ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/cobidev/simplefolio"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
+  "author": "Jacobo Martinez",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1",
+    "vanilla-tilt": "^1.7.3"
   }
 }
